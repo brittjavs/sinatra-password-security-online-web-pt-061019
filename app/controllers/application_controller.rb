@@ -38,7 +38,7 @@ end
     else
       redirect "/failure"
     end
-end
+  end
 
 	get "/success" do
 		if logged_in?
